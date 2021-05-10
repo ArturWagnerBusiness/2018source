@@ -195,7 +195,7 @@ def makePost():
                 postHtml.write('        <p>{}</p>\n'.format(container))
             elif containerType == "img":
                 copyfile(container, dirImg + "\\" + getFilename(container))
-                postHtml.write('        <img style="max-width: {};" src="/resources/articles/'.format(imageWidth) + projectSettings["timePath"] + "/" + projectSettings["version"] + '/images/{}">\n'.format(getFilename(container)))
+                postHtml.write('        <img style="max-width: {};" src="/2018source/resources/articles/'.format(imageWidth) + projectSettings["timePath"] + "/" + projectSettings["version"] + '/images/{}">\n'.format(getFilename(container)))
             elif containerType == "raw":
                 postHtml.write('        {}\n'.format(container))
             itemID += 1

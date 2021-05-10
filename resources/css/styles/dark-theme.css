@@ -16,12 +16,12 @@ a:visited {
 }
 body{
     background-color: rgb(100, 100, 100);
-    background-image: url("/resources/articles/2018/11/8/1/images/background.png");
+    background-image: url("/2018source/resources/articles/2018/11/8/1/images/background.png");
     background-repeat: repeat;
     
 }
 #hero{
-    background-image: url("/resources/articles/2018/11/8/1/images/header.png");
+    background-image: url("/2018source/resources/articles/2018/11/8/1/images/header.png");
     height: 400px;
 }
 body #wrapper{
@@ -107,7 +107,7 @@ nav ul .nav-hover a{
     margin-right: 15px;
     width: 170px;
     height: 170px;
-    background-image: url("/resources/articles/2018/11/9/1/images/back.png");
+    background-image: url("/2018source/resources/articles/2018/11/9/1/images/back.png");
     margin-top: 15px;
     text-align: center;
 }
